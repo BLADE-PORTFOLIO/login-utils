@@ -1,7 +1,7 @@
 {
   "name": "@ghalib822/log-in-utilities",
-  "version": "1.0.0",
-  "description": "Login utils",
+  "version": "0.0.1",
+  "description": "Log in Utils",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
   "sideEffects": false,
@@ -9,11 +9,8 @@
     "type": "git",
     "url": "git+https://github.com/BLADE-PORTFOLIO/login-utils.git"
   },
-  "scripts": {
-    "compile": "tsc && tsc --build tsconfig.es5.json"
-  },
   "files": [
-    "dist",
+    "lib",
     "CHANGELOG.md",
     "LICENSE",
     "package.json",
@@ -29,9 +26,5 @@
   "bugs": {
     "url": "https://github.com/BLADE-PORTFOLIO/login-utils/issues"
   },
-  "homepage": "https://github.com/BLADE-PORTFOLIO/login-utils/#readme",
-  "devDependencies": {
-    "@types/js-cookie": "^3.0.3",
-    "typescript": "^5.2.2"
-  }
+  "homepage": "https://github.com/BLADE-PORTFOLIO/login-utils/#readme"
 }
