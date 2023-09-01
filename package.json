@@ -1,6 +1,6 @@
 {
   "name": "login-utils-01",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Login utils",
   "main": "dist/lib/es5/index.js",
   "module": "dist/lib/es6/index.js",

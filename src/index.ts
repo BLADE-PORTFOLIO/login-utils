@@ -25,7 +25,6 @@ export function confirmLogin(sessionId: string, apiUrl: string, loginUrl: string
       },)
         .then(response => response.text()) // Read response as text
           .then(data => {
-            console.log(data);
               if (data == 'completed') {
                 fetch(`${loginUrl}${sessionId}`, {
                     method: 'GET',
@@ -74,7 +73,7 @@ export function handleChange(url: string, apiUrl: string, loginUrl: string, loca
 
     promise.
     then(response => {
-      console.log('Outer',response);
+      console.log(response);
       myWindow?.close();
     })
     .catch(error => {
