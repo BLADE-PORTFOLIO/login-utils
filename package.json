@@ -1,6 +1,6 @@
 {
   "name": "@ghalib822/login-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Login utils",
   "main": "/disT/lib/es6/index.js",
   "types": "dist/lib/es6/index.d.ts",
