@@ -1,5 +1,5 @@
 {
-  "name": "@ghalib822/log-in-utilities",
+  "name": "login-utils-01",
   "version": "1.0.0",
   "description": "Login utils",
   "main": "dist/lib/es5/index.js",
